@@ -13,7 +13,7 @@ public class HelloController {
 	@GetMapping("/")
 	public String index(ServletRequest request) {
 		log.info("server port = {}", request.getServerPort());
-		return "Hello World..." +request.getServerPort();
+		return "CI/CD 반영됨 Hello World..." +request.getServerPort();
 	}
 	
 	
